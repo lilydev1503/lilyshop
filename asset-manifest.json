@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/lilyshop/static/css/main.bab26f87.css",
+    "main.js": "/lilyshop/static/js/main.3d9eaab5.js",
+    "static/js/787.13f81209.chunk.js": "/lilyshop/static/js/787.13f81209.chunk.js",
+    "index.html": "/lilyshop/index.html",
+    "main.bab26f87.css.map": "/lilyshop/static/css/main.bab26f87.css.map",
+    "main.3d9eaab5.js.map": "/lilyshop/static/js/main.3d9eaab5.js.map",
+    "787.13f81209.chunk.js.map": "/lilyshop/static/js/787.13f81209.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bab26f87.css",
+    "static/js/main.3d9eaab5.js"
+  ]
+}
