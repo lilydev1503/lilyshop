@@ -1,0 +1,139 @@
+
+  
+  .chat-header {
+    background-color: #f8f8f8;
+    color: #333;
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e0e0e0;
+    border-radius: 12px 12px 0 0;
+  }
+  
+  .chat-header img {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .chat-messages {
+    padding: 12px;
+    overflow-y: auto;
+    max-height: 240px;
+  }
+  
+  .message {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 14px;
+  }
+  
+  .message.user {
+    background-color: #e6f7ff;
+    color: #333;
+  }
+  
+  .chat-input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    border-top: 1px solid #e0e0e0;
+    border-radius: 0 0 12px 12px;
+  }
+  
+  .chat-input input {
+    flex: 1;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 14px;
+  }
+  
+  .send-button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .chat-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  }
+  
+  .chat-button img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+
+  .popup-chat-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .open-chat-button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px; /* Adjust the margin as needed */
+  }
+  
+
+
+  
+.popup-chat-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .open-chat-button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px; /* Adjust the margin as needed */
+  }
+  
+  .popup-chat-box {
+    position: absolute;
+    bottom: 60px; /* Adjust the top position as needed */
+    right: 0;
+    width: 320px;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    font-family: 'Arial', sans-serif;
+    overflow: hidden;
+    display: none; /* Initially hide the chat box */
+    z-index: 3; /* Set a higher z-index for the chat box */
+  }
+  .popup-chat-box.chat-opened {
+    display: flex; /* Display the chat box when it is opened */
+    flex-direction: column; /* Ensure it is a column layout */
+  }
