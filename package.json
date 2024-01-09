@@ -1,6 +1,7 @@
 {
   "name": "rjs-asm03",
   "homepage": "https://lilydev1503.github.io/lilyshop",
+  "private": false,
   "version": "0.1.0",
   "private": true,
   "dependencies": {
